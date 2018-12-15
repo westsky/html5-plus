@@ -1,0 +1,18 @@
+{
+  "name": "html5-plus",
+  "version": "0.0.5",
+  "description": "html5 plus typescript DefinitelyTyped",
+  "main": "src/index.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "plus",
+    "typescript",
+    "define"
+  ],
+  "author": "westsky studio",
+  "license": "MIT"
+}
