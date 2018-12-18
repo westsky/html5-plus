@@ -88,7 +88,7 @@ declare namespace plus.barcode {
   }
 
   interface BarcodeErrorCallback {
-    (error?: DOMException): void | any; //匿名方法委托
+    (error?: DOMException): void; //匿名方法委托
   }
 
   interface BarcodeStyles {

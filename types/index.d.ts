@@ -31,6 +31,7 @@ declare function plusReady(callback: () => void);
 /// <reference path="plus.nativeObj.d.ts" />
 /// <reference path="plus.navigator.d.ts" />
 /// <reference path="plus.proximity.d.ts" />
+/// <reference path="plus.proximity.d.ts" />
 /// <reference path="plus.runtime.d.ts" />
 /// <reference path="plus.push.d.ts" />
 /// <reference path="plus.share.d.ts" />

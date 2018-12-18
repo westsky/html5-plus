@@ -164,7 +164,7 @@ declare class APIRuntime {}
  * 可通过对象设置安装的应用是否进行appid校验、版本号校验等。
  * @description 可通过对象设置安装的应用是否进行appid校验、版本号校验等。
  */
-declare class WidgetOptions extends JSONObject {
+declare interface WidgetOptions {
   /**
    * 是否强制安装
    */
@@ -174,7 +174,7 @@ declare class WidgetOptions extends JSONObject {
 /**
  * JSON对象：应用信息
  */
-declare class WidgetInfo extends JSONObject {
+declare interface WidgetInfo {
   /**
    * 应用的APPID
    */
@@ -213,7 +213,7 @@ declare class WidgetInfo extends JSONObject {
   features: Array<string>;
 }
 
-declare class OpenFileOptions extends JSONObject {
+declare interface OpenFileOptions {
   /**
    * 优先使用的程序包名
    */
@@ -224,7 +224,7 @@ declare class OpenFileOptions extends JSONObject {
    */
   popover: string | any;
 }
-declare class ApplicationInf extends JSONObject {
+declare interface ApplicationInf {
   /**
    * 第三方程序包名
    */

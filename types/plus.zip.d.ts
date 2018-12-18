@@ -5,5 +5,5 @@
  */
 
 declare namespace plus.zip {
-
+  interface CompressImageOptions {}
 }

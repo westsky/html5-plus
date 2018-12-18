@@ -1,6 +1,6 @@
 {
   "name": "html5-plus",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "html5 plus typescript DefinitelyTyped",
   "main": "src/index.js",
   "typings": "types/index.d.ts",
@@ -13,6 +13,10 @@
     "typescript",
     "define"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/westsky/html5-plus"
+  },
   "author": "westsky studio",
   "license": "MIT"
 }
