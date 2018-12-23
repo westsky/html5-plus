@@ -35,7 +35,7 @@ declare namespace plus.net {
     onreadystatechange: ((this: XMLHttpRequest) => any) | null | void; //或者定义为XhrStateChangeCallback；其实没有区别
   }
 
-  class ProgressEvent extends Event {
+  interface ProgressEvent extends Event {
     readonly loaded: number;
     readonly total: number;
     readonly lengthComputable: Boolean;

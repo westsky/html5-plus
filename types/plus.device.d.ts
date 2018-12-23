@@ -2,7 +2,7 @@ declare namespace plus{
     const device:Device;
     const screen:Screen;
     
-    class Device{
+    interface Device{
         readonly imei:string;
         readonly imsi:string;
         readonly model:string;
@@ -17,7 +17,7 @@ declare namespace plus{
         beep( times:number ):void;
     }
 
-    class Screen{
+    interface Screen{
         readonly resolutionHeight:number;
         readonly resolutionWidth:number;
         readonly scale:number;

@@ -5,7 +5,7 @@
 //==================================================
 
 declare namespace plus {
-  class bridge {
+  interface bridge {
     readonly NO_RESULT: number;
     readonly OK: number;
     readonly CLASS_NOT_FOUND_EXCEPTION: number;
@@ -44,13 +44,13 @@ declare namespace plus {
     callbackId(successCallback?: any, failCallback?: any): void;
   }
 
-  class Callback {
+  interface Callback {
     onCallback(fun: any, evt: any, args: any): void;
     addEventListener(evtType: string, fun: any, capture?: boolean): void;
     removeEventListener(evtType: string, fun: any): void;
   }
 
-  class tools {
+  interface tools {
     readonly __UUID__: number;
     readonly UNKNOWN: number;
     readonly IOS: number;
